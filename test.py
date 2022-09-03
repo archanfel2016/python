@@ -1,6 +1,6 @@
-import filehelper
+import dirhelper
 p=r"C:\Users\Administrator\Desktop\Github\python"
-res=filehelper.get_files(p,recu=False)
+res=dirhelper.get_files(p,recu=False)
 for i in res:
     print(i)
 
