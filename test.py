@@ -1,5 +1,5 @@
 import filehelper
-p=r"C:\BaiduNetdiskDownload\PyQt5开发与实战视频教程\PyQt5开发与实战（1）"
+p=r"C:\Users\Administrator\Desktop\Github\python"
 res=filehelper.get_files(p,recu=False)
 for i in res:
     print(i)
